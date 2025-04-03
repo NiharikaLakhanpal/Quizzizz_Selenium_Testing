@@ -1,0 +1,14 @@
+ID,Test Case,Pre condition,Test Steps,Test Data,Expected Output,Post-condition,Actual Output,Status,Comments
+Login_001,Verification of Login Page with email id,User must have valid email id for login.,a. Select Login,a. Valid email - id,Log In Successful,User is redirected to the dashboard.,Log In Successful,Pass,Test runs success fully as Dashboard opens.
+,,,b. Select Google Login,b. Button clicked,,,,,
+,,,c. Select your valid registered email id,,,,,,
+Login_002,Verification of Login Page with valid Userna me and passwo rd,User has an invalid username,a. Type correc t Username,a. Valid Username,Log In Successful,User is redirected to the dashboard.,Log In Successful,Pass,Test Successful as Dashboard appears.
+,,,b. Type correc t Password,b. Valid Password,,,,,
+,,,c. Press the Log In button,,,,,,
+Login_003,Verification of Login Page with Invalid Password,User has an invalid password,a. Type correct Username,a. Valid Username,"Error message: ""Invalid password.""",User stays on the login page.,Error message displayed,Pass,Error message should be displayed for invalid credentials.
+,,,b. Type incorrect Password,b. Invalid Password,,,,,
+,,,c. Press the Log In button,,,,,,
+Logout_001,Verifica tion of Logout process,User is logged into the Quizizz platform.,a. Click on Logout button from side bar icon ,N/A,Session is cleared; restricted areas are inaccessible.,User is logged out successfully,Logout working as expected.,Pass,Home Page should appear.
+,,,b. Try access ing restricted areas.,,,,,,
+Quiz_creation_001,Verification of Quiz Creatio n Process,User has permission to create and access quizzes,a. Login,"Quiz title, questions, answers",Quiz is created,N/A,Quiz creation successful.,Pass,
+,,,b. Create a new quiz,,,,,,
