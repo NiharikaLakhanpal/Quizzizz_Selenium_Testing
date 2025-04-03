@@ -15,8 +15,7 @@ The testing is conducted using **Selenium IDE**, leveraging automation scripts t
 ### 🔍 Test Types Covered
 1. **Functional Testing**  
    - Login & Logout Verification  
-   - Quiz Creation & Participation  
-   - Scoring & Navigation Checks  
+   - Quiz Creation & Participation   
 
 ## 🛠️ Tools & Technologies Used
 - **Selenium IDE** for automation  
